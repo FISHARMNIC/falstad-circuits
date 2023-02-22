@@ -1,0 +1,62 @@
+= 
+mov rT 0 ;loads rT
+
+mov r1 rT   ;sets r1 to rT
+mov rD   ;moves rT into rD (display)
+
+add 1	 ;adds 1 to rT (which is r1) and stores in rm
+
+get rM   ;gets math result
+mov r1	 ;moves math result to r1
+
+jni 10 1   ;jumps to line one if rt is not 10
+
+
+
+
+-- Displaying a number
+
+
+mov rT 2
+moV r2 ;display
+
+-- Adding two numbers and displaying them
+
+set rT 1
+add 2
+mov rT rM
+mov r2 ;shows 3
+
+
+
+
+
+--loop till ten
+
+
+ mov rT 1 ;loads rT
+ mov r2 rT ;sets r2 to rT
+
+ add 1	 ;adds 1 to rT (which is r1) and stores in rm
+
+ move rT rM   ;gets math result
+ mov r2 rT	 ;moves math result to r2
+
+jni 15 1   ;jumps to line one if rt is not 10
+
+/////////////
+
+mov rT 0 ;loads rT
+
+mov r1 rT   ;sets r1 to rT
+mov rT r1   ;pulls r1 into rT
+mov rD   ;moves rT into rD (display)
+
+add 1	 ;adds 1 to rT (which is r1) and stores in rm
+
+get rM   ;gets math result
+mov r1	 ;moves math result to r1
+
+jni 10 1   ;jumps to line one if rt is not 10
+
+0: 272 800 1040 560 800 1521 1
